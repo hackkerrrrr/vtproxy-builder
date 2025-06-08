@@ -27,7 +27,7 @@ jobs:
       run: yarn make
 
     - name: Upload Build Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: vtproxy-exe
         path: out/make/squirrel.windows/x64/*.exe
